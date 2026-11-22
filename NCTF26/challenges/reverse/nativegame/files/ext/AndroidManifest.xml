@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.native" android:versionCode="3" android:versionName="1.0">
+    <application android:label="NativeGame">
+        <activity android:name="com.game.native.MainActivity" android:exported="true"/>
+    </application>
+</manifest>

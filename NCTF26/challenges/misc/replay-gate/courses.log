@@ -1,0 +1,5 @@
+# Rush hour Lomé — Grand Marché corridor (fictif)
+OPEN ts=1710003600 zone=GrandMarche
+CHECK rider=koffi_moto cp=Tokoin ts=1710003660
+CHECK rider=afi_rush cp=Universite ts=1710003720
+CLOSE ts=1710003900 zone=Agoe

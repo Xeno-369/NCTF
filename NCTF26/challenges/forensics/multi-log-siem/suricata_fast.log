@@ -1,0 +1,17 @@
+11/12/2026-07:32:03.024073  [**] [1:2024364:3] ET SCAN Nmap Scripting Engine User-Agent Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 91.189.88.161:55001 -> 192.168.10.50:22
+11/12/2026-07:32:05.430113  [**] [1:2002911:3] ET SCAN Rapid Multi-Port SYN Scan Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 91.189.88.161:55000 -> 192.168.10.50:21
+11/12/2026-07:35:05.063440  [**] [1:2008972:3] ET WEB_SERVER Rapid Directory Enumeration Detected [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 91.189.88.161:56749 -> 192.168.10.50:80
+11/12/2026-08:05:15.615474  [**] [1:2008972:3] ET WEB_SERVER Rapid Directory Enumeration Detected [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 91.189.88.161:58838 -> 192.168.10.50:80
+11/12/2026-09:05:14.766521  [**] [1:2025546:3] ET PHISHING Possible Spearphishing Link in Email Subject [**] [Classification: Social Engineering] [Priority: 1] {TCP} 185.220.101.42:25 -> 192.168.10.50:25
+11/12/2026-09:15:35.602987  [**] [1:2100101:3] ET WEB_SERVER Server Side Template Injection - Jinja2 Detected [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 185.220.101.42:50627 -> 192.168.10.50:80
+11/12/2026-09:22:02.665716  [**] [1:2024792:3] ET POLICY Outbound Connection to Non-Standard Port (9443) [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.10.50:42100 -> 185.220.101.42:9443
+11/12/2026-09:30:20.810838  [**] [1:2006445:3] ET WEB_SERVER SQL Injection Attempt - SELECT FROM [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 91.189.88.161:53192 -> 192.168.10.50:80
+11/12/2026-10:01:00.832655  [**] [1:2002910:3] ET SCAN Internal Network Scanning Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.10.50:47810 -> 192.168.10.1:0
+11/12/2026-10:05:00.586528  [**] [1:2028759:3] ET MALWARE Possible C2 Beacon - Regular HTTPS Interval Detected [**] [Classification: A Network Trojan was Detected] [Priority: 1] {TCP} 192.168.10.50:42305 -> 172.67.182.93:443
+11/12/2026-10:15:05.513757  [**] [1:2013028:3] ET WEB_SERVER Cross-Site Scripting Attempt [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 91.189.88.161:43934 -> 192.168.10.50:80
+11/12/2026-10:35:02.366956  [**] [1:2003068:3] ET POLICY SSH Connection from Web Server to Application Server [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.10.50:48200 -> 192.168.10.51:22
+11/12/2026-11:05:01.090963  [**] [1:2003069:3] ET POLICY SSH Connection from Application Server to Database Server [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.10.51:48350 -> 192.168.10.30:22
+11/12/2026-11:10:00.369775  [**] [1:2002911:3] ET SCAN Rapid Multi-Port SYN Scan Detected [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 91.189.88.161:54948 -> 192.168.10.51:22
+11/12/2026-13:20:10.498092  [**] [1:2001219:3] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 91.189.88.161:60200 -> 192.168.10.50:22
+11/12/2026-14:30:05.727302  [**] [1:2027863:3] ET DNS Excessive DNS TXT Queries to Single Domain - Possible DNS Tunneling [**] [Classification: Potentially Bad Traffic] [Priority: 1] {TCP} 192.168.10.50:49501 -> 192.168.10.5:53
+11/12/2026-15:15:05.325078  [**] [1:2019876:3] ET POLICY Possible Log Tampering - System Log Truncation Detected [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.10.50:0 -> 192.168.10.50:0

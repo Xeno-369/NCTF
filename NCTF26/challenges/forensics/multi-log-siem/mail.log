@@ -1,0 +1,15 @@
+Nov 12 07:30:10 srv-web01 postfix/smtpd[1300]: connect from mail.digitogo.tg[192.168.10.10]
+Nov 12 07:30:12 srv-web01 postfix/cleanup[1302]: A1B2C3: message-id=<daily-report-20261112@digitogo.tg>
+Nov 12 07:30:14 srv-web01 postfix/smtp[1304]: A1B2C3: to=<all-staff@digitogo.tg>, relay=mail-gw.digitogo.tg:25, status=sent
+Nov 12 08:15:05 srv-web01 postfix/smtpd[1310]: connect from mail.digitogo.tg[192.168.10.10]
+Nov 12 08:15:07 srv-web01 postfix/cleanup[1312]: B2C3D4: message-id=<meeting-standup@digitogo.tg>
+Nov 12 08:15:09 srv-web01 postfix/smtp[1314]: B2C3D4: to=<dev-team@digitogo.tg>, relay=mail-gw.digitogo.tg:25, status=sent
+Nov 12 09:05:12 srv-web01 postfix/smtpd[1401]: connect from unknown[185.220.101.42]
+Nov 12 09:05:13 srv-web01 postfix/smtpd[1401]: warning: hostname verification failed for [185.220.101.42]
+Nov 12 09:05:14 srv-web01 postfix/cleanup[1403]: 9E5F6A: message-id=<urgent-update-20261112@digitogo-updates.com>
+Nov 12 09:05:15 srv-web01 postfix/qmgr[1102]: 9E5F6A: from=<support@digitogo-updates.com>, size=28450, nrcpt=1
+Nov 12 09:05:16 srv-web01 postfix/smtp[1404]: 9E5F6A: to=<d.amegavi@digitogo.tg>, relay=mail-gw.digitogo.tg[192.168.10.5]:25, status=sent
+Nov 12 10:07:13 srv-web01 postfix/smtpd[1310]: connect from mail.digitogo.tg[192.168.10.10]
+Nov 12 12:20:24 srv-web01 postfix/smtpd[1312]: connect from mail.digitogo.tg[192.168.10.10]
+Nov 12 14:20:36 srv-web01 postfix/smtpd[1314]: connect from mail.digitogo.tg[192.168.10.10]
+Nov 12 16:24:28 srv-web01 postfix/smtpd[1316]: connect from mail.digitogo.tg[192.168.10.10]

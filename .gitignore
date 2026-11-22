@@ -1,5 +1,9 @@
+# Artefacts Python
 __pycache__/
 *.pyc
-*.log
 .venv/
 venv/
+
+# Sessions d'outils (hydra, feroxbuster, etc.) — à ne pas versionner
+*.restore
+*.state

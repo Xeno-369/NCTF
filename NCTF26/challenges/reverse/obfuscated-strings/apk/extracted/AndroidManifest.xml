@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stashbox.app" android:versionCode="12" android:versionName="3.0">
+    <application android:label="StashBox">
+        <activity android:name="com.stashbox.app.MainActivity" android:exported="true"/>
+    </application>
+</manifest>

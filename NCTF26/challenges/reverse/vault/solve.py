@@ -1,0 +1,5 @@
+check=bytes.fromhex('323e3e8353643262 6dab4e87928c9771 ab9d86bafdcadb'.replace(' ',''))
+enc=bytes.fromhex('3b2d237715172b06595d381e3e18593a3d0b3a095031101d0b28525e003a09')
+pp=bytes((((check[i]-(3+7*i))&0xff)^0x5a) for i in range(23))
+print('passphrase:',pp.decode())
+print(bytes(pp[i%23]^enc[i] for i in range(len(enc))).decode())

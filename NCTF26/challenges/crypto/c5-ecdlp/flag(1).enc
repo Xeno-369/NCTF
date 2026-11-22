@@ -1,0 +1,6 @@
+{
+  "scheme": "AES-256-GCM, key=SHA256(str(x)), nonce=SHA256('C5-ECDLP-nonce|'+str(x))[:12]",
+  "nonce": "d24c0c5098395a51db0ef79d",
+  "ciphertext": "6ad08178e96c46a852181572da5eb8e0f40cc89dc1666b18b0a22d507b6b995d",
+  "tag": "2a674f00a5d9ee667e9a1c211217de84"
+}

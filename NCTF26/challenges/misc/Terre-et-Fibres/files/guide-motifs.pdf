@@ -1,0 +1,31 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources<< /Font<< /F1 5 0 R >> >> >>endobj
+4 0 obj<< /Length 418 >>stream
+BT
+/F1 10 Tf
+50 750 Td
+14 TL
+(Guide motifs ? Dapaong Terre & Fibres \(extrait\)) Tj
+T* (Consonnes et chiffres: glyphe latin \(n->N ... s->S r->R b->B\).) Tj
+T* (Hex a reste une voyelle \(glyphe ? sur l'affiche\), pas la lettre B.) Tj
+T* (Voyelles: uniquement sur l'affiche officielle.) Tj
+T* (Le fil rouge \(fibre primaire\) porte le message tisse.) Tj
+T* (Lecture: longueur uint32 big-endian puis motifs UTF-8.) Tj
+ET
+endstream
+endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000233 00000 n 
+0000000700 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+768
+%%EOF

@@ -1,0 +1,5 @@
+c1=bytes.fromhex('8ffff4c3d0ba362e540bb291cd1af41205cfb7c024dfa86fa3d01c7e086a8e51')
+c2=bytes.fromhex('83d3ceefc49c7446402ae6adef09c83e23dc979b37edfc2ee982432f1f2fcd4e91f47ce4c557f1c6eeb622c686f020ef1f463cc80b42512244cc7c4ee1b695ca453c846a4b78d6583c4c')
+known=b'Bonjour, ceci est un message public pour verifier la cle XOR du challenge.'
+key=bytes(a^b for a,b in zip(c2,known))
+print(bytes(a^b for a,b in zip(c1,key)).decode())

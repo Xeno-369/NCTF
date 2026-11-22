@@ -1,0 +1,199 @@
+Return-Path: <bounce-notify@205-12-138-91.static.cable.qlnet.ch>
+X-Original-Sender: paiements@ecofinance-afrique.com
+X-Originating-IP: 196.12.50.100
+X-Forwarded-For: 196.12.50.100
+X-Transaction-ID: VIR-ECO-2026-48293
+X-Mailer: Ecofinance Afrique Notification Service v3.2
+Received: from filter.finatogo.tg (10.0.2.20) by mx.finatogo.tg (Postfix) with
+ ESMTPS id 9F4A2E7B31 for <k.mensah@finatogo.tg>; Thu, 12 Nov 2026 14:32:22
+ +0000 (UTC)
+Received: from mail-gw.finatogo.tg (10.0.2.15) by filter.finatogo.tg
+ (SpamFilter) with ESMTP id 5D3BC94A12 for <k.mensah@finatogo.tg>; Thu, 12 Nov
+ 2026 14:32:21 +0000 (UTC)
+Received: from smtp-out.ecofinance-afrique.com
+ (smtp-out.ecofinance-afrique.com [196.12.50.100]) by mail-gw.finatogo.tg
+ (Postfix) with ESMTP id A1E7F2C8D5 for <k.mensah@finatogo.tg>; Thu, 12 Nov
+ 2026 14:32:19 +0000 (UTC)
+Received: from 205-12-138-91.static.cable.qlnet.ch (91.138.12.205) by
+ mail-gw.finatogo.tg with SMTP id c4f9e2a1; Thu, 12 Nov 2026 14:32:17 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=ecofinance-afrique.com; s=mail2026; t=1731422137;
+ bh=RnVsbEJvZHlIYXNoRm9yRmFrZURLSU1TaWduYXR1cmU=;
+ h=From:To:Subject:Date:Reply-To; =?utf-8?q?b=3DWkZha2VTaWduYXR1cmVFY29GaW5h?=
+ =?utf-8?q?bmNlQWZyaXF1ZU5vdFJlYWxEaWdpdGFsU2lnbmF0dXJlQnV0TG9va3NMaWtlT25l?=
+X-Original-Authentication-Results: smtp-out.ecofinance-afrique.com; spf=pass
+ smtp.mailfrom=ecofinance-afrique.com; dkim=pass
+ header.d=ecofinance-afrique.com; dmarc=pass
+ header.from=ecofinance-afrique.com
+Authentication-Results: mail-gw.finatogo.tg; spf=pass
+ smtp.helo=smtp-out.ecofinance-afrique.com; dkim=fail (signature verification
+ failed) header.d=ecofinance-afrique.com; dmarc=pass
+ header.from=ecofinance-afrique.com
+Authentication-Results: mx.finatogo.tg; spf=fail (sender IP is 91.138.12.205)
+ smtp.mailfrom=205-12-138-91.static.cable.qlnet.ch; dkim=none; dmarc=fail
+ (p=reject) header.from=ecofinance-afrique.com
+X-Sender-IP: 196.12.50.100
+X-Spam-Status: No, score=2.1 required=5.0
+X-Spam-Score: 2.1
+From: "Ecofinance Afrique" <paiements@ecofinance-afrique.com>
+Reply-To:
+ "Service Paiements Ecofinance" <support-paiement@ecofinance-service.net>
+To: "Kofi Mensah" <k.mensah@finatogo.tg>
+Subject:
+ [URGENT] Virement de 2 500 000 FCFA en attente - Ref VIR-ECO-2026-48293
+Date: Thu, 12 Nov 2026 14:32:17 +0000
+Message-ID: <vir48293-eco-20261112@smtp-out.ecofinance-afrique.com>
+X-Priority: 1
+Importance: high
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5701512538814462953=="
+
+--===============5701512538814462953==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Ecofinance Afrique - Plateforme de paiements inter-entreprises
+
+Cher(e) Kofi Mensah,
+
+Nous vous informons qu'un virement entrant de 2 500 000 FCFA en provenance
+de votre partenaire SOGETRAF SARL est en attente de validation sur votre
+compte professionnel Ecofinance.
+
+  Reference : VIR-ECO-2026-48293
+  Emetteur  : SOGETRAF SARL
+  Montant   : 2 500 000 FCFA
+  Motif     : Facture PRO-2026-1847 / Fournitures IT Q4
+  Delai     : 24 heures
+
+ATTENTION : Ce virement sera automatiquement retourne a l'emetteur
+si vous ne validez pas dans le delai imparti.
+
+Pour valider la reception de ce virement :
+https://ecofinance-afrique-paiements.com/validate?ref=VIR-ECO-2026-48293
+
+Ecofinance Afrique SA - Immeuble Caisse d'Epargne, Bd du 13 Janvier, Lome
+Tel : +228 22 21 00 00 | paiements@ecofinance-afrique.com
+
+--===============5701512538814462953==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!DOCTYPE html>
+<html><head><meta charset=3D"utf-8"></head>
+<body style=3D"font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;mar=
+gin:0;padding:0">
+<div style=3D"max-width:600px;margin:20px auto;background:#ffffff;border-radi=
+us:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+
+<div style=3D"background:#1a3c6e;padding:20px 28px;text-align:center">
+<h1 style=3D"margin:0;font-size:20px;color:#fff;letter-spacing:0.5px">Ecofina=
+nce Afrique</h1>
+<p style=3D"margin:4px 0 0;font-size:11px;color:#8baad4">Plateforme de paieme=
+nts inter-entreprises</p>
+</div>
+
+<div style=3D"padding:28px">
+<p style=3D"margin:0 0 16px">Cher(e) Kofi Mensah,</p>
+
+<p>Nous vous informons qu'un <b>virement entrant de 2 500 000 FCFA</b> en pro=
+venance
+de votre partenaire <b>SOGETRAF SARL</b> est en attente de validation sur vot=
+re
+compte professionnel Ecofinance.</p>
+
+<div style=3D"background:#fff3e0;border-left:4px solid #ff9800;padding:14px 1=
+8px;margin:18px 0">
+<p style=3D"margin:0;font-size:14px;color:#e65100"><b>&#9888; Action requise =
+sous 24h</b></p>
+<p style=3D"margin:8px 0 0;font-size:13px;color:#555">Ce virement sera automa=
+tiquement retourn&eacute;
+&agrave; l'&eacute;metteur si vous ne validez pas dans le d&eacute;lai impart=
+i.</p>
+</div>
+
+<table style=3D"width:100%;border-collapse:collapse;margin:16px 0;font-size:1=
+3px">
+<tr style=3D"background:#f8f9fa">
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0;color:#666;width:40%"=
+>R&eacute;f&eacute;rence</td>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0"><b>VIR-ECO-2026-4829=
+3</b></td>
+</tr>
+<tr>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0;color:#666">&Eacute;m=
+etteur</td>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0"><b>SOGETRAF SARL</b>=
+</td>
+</tr>
+<tr style=3D"background:#f8f9fa">
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0;color:#666">Montant</=
+td>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0"><b style=3D"color:#2=
+e7d32">2 500 000 FCFA</b></td>
+</tr>
+<tr>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0;color:#666">Motif</td>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0">Facture PRO-2026-184=
+7 / Fournitures IT Q4</td>
+</tr>
+<tr style=3D"background:#f8f9fa">
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0;color:#666">D&eacute;=
+lai de validation</td>
+<td style=3D"padding:10px 14px;border:1px solid #e0e0e0"><b style=3D"color:#d=
+32f2f">24 heures</b></td>
+</tr>
+</table>
+
+<p>Pour <b>valider la r&eacute;ception</b> de ce virement, veuillez confirmer=
+ votre identit&eacute;
+et vos coordonn&eacute;es bancaires via notre portail s&eacute;curis&eacute; =
+:</p>
+
+<div style=3D"text-align:center;margin:24px 0">
+<a href=3D"https://ecofinance-validation.secure-transfer.top/validate?ref=3DV=
+IR-ECO-2026-48293&amt=3D2500000&dest=3Dfinatogo"
+   style=3D"display:inline-block;padding:14px 40px;background:#1a3c6e;color:#=
+fff;
+   text-decoration:none;border-radius:4px;font-weight:bold;font-size:15px">
+   Valider le virement de 2 500 000 FCFA
+</a>
+</div>
+
+<div style=3D"background:#fafafa;border:1px solid #e0e0e0;border-radius:4px;p=
+adding:14px 18px;margin:18px 0">
+<p style=3D"margin:0;font-size:12px;color:#777"><b>S&eacute;curit&eacute; :</=
+b> Ce lien est
+prot&eacute;g&eacute; par un certificat SSL et expire dans 24h. Ecofinance Af=
+rique ne vous
+demandera jamais vos identifiants par t&eacute;l&eacute;phone ou SMS.</p>
+</div>
+
+<hr style=3D"border:0;border-top:1px solid #eee;margin:20px 0">
+
+<table style=3D"width:100%;font-size:11px;color:#999">
+<tr>
+<td>Ecofinance Afrique SA<br>
+Immeuble Caisse d'&Eacute;pargne, Bd du 13 Janvier, Lom&eacute;<br>
+T&eacute;l : +228 22 21 00 00</td>
+<td style=3D"text-align:right">Service Paiements<br>
+paiements@ecofinance-afrique.com<br>
+<a href=3D"https://www.ecofinance-afrique.com" style=3D"color:#999">www.ecofi=
+nance-afrique.com</a></td>
+</tr>
+</table>
+
+<p style=3D"font-size:10px;color:#bbb;text-align:center;margin-top:12px">
+<a href=3D"https://ecofinance-afrique-paiements.com/notifications/unsubscribe=
+?uid=3Dk.mensah&ref=3D48293"
+   style=3D"color:#bbb">G&eacute;rer les notifications</a> |
+<a href=3D"https://ecofinance-afrique-paiements.com/legal/privacy" style=3D"c=
+olor:#bbb">Politique de confidentialit&eacute;</a>
+</p>
+</div>
+</div>
+</body></html>
+
+--===============5701512538814462953==--

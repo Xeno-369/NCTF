@@ -1,0 +1,104 @@
+# ═══════════════════════════════════════════════════════════════════
+# Sokodé Industrial Control System v2.4 — Export sécurisé
+# Module SCADA/ICS — Télégrammes de contrôle chiffrés AES-128/ECB
+# Direction des systèmes critiques — Confidentiel ANSSI TLP:AMBER
+# ═══════════════════════════════════════════════════════════════════
+#
+# SESSION_KEY_WRAP (RSA-2048 OAEP-SHA256)
+# Enveloppe de clé de session — déchiffrement réservé HSM-master.
+# Référence : NIST SP 800-56B Rev.2 §7.2.1.2 — IEC 62443-3-3
+#
+
+RSA_N = 0xd9938665500cfe5aa616469d9b200ca496dc778df7dc7c8b76641681299aa6d2fbda0c5487351af4d5b8cc153abe53bbb76abe968e48a6f7d547a7f006832a96f35803996db62ab7bcb1a3e8909f8a5eb0283ab76bc69de1ad1566ca10c86944625b1ba6e5a6b35a71a531f37e365a0e93c977da757a33fc7078909f6031b5bf5670c4d75a28dbdb4b79e2109d18d530d9f3a72194ecc9fa868c470bf0e7cb3debbf25fde5b310396f38e4bcf68a33d81fb9e6daa5018e8cdeb87c8f78c0fbe58d9306f2f503411dd829bf67b6b4521858085d77a719205ebc136bcf897b8e2819b8c5958aba5f184d992f8d2d5c30cdee6af45257e7aa7ab062989ce528dd2b
+RSA_E = 65537
+RSA_C = 0x7e400e74c515b1879ae95b2d49afc3e42c0012e4ec6bdf8170b23c6d6e5859d57d2ef27dd48333ace2a6bb49c4df9e449c0dcf012725a228cedebe5ff3f26320f47ec43d8c6a03028dc23196f5ededbd2c2d586b1cd2cb912a71e4f8d8508c1206230f91c883bf00e90480a54ecc1737ac6a21a93364ae38fc85f05a358175436286c018d76c80316625e2118a593d84889ebec29b1096d5f966d7a0b2243319e09dbc51bef400a68093c5d5f7cc886a6879cb7d032f5fc1260f78311e6ffa2c29654f1f8886c0833a28cdfa51c18f3ca2bff4f6fd737d1806711b20263ad87e0ac4631bbc1bc8d93c7674c51b1025cc99906d06ea6652278dbddc88b6110c88
+
+# ───────────────────────────────────────────────────────────────────
+# JOURNAUX DE TÉLÉGRAMMES — Profil industriel IEC 62443
+# Certains télégrammes ont été capturés en mode dégradé
+# (bit de parité SCADA actif). Les paires normales/dégradées
+# sont fournies avec l'indice de colonne affectée.
+#
+# Format : PLAINTEXT | CT_NORMAL | CT_DEGRADE | FAULT_COL
+# ───────────────────────────────────────────────────────────────────
+
+PT_01        = 0x847a63795fa9363e2e7d034473dad151
+CT_01        = 0xead3fab2057e137890bedf1acc55e37c
+CT_01_FAULT  = 0x72d3fab2057e137090be121acc80e37c
+FAULT_COL_01 = 0
+
+PT_02        = 0xf5e2a1f4dc1f57822b90ffa79bd3834c
+CT_02        = 0x04387eba6c783e799b5b7da3814113d2
+CT_02_FAULT  = 0x82387eba6c783ea69b5b10a3812013d2
+FAULT_COL_02 = 0
+
+PT_03        = 0x77109114fe531ca0da2afce2144904f3
+CT_03        = 0xaa6e4d9110c144b393fde3fee47b5c1c
+CT_03_FAULT  = 0xec6e4d9110c1443393fde8fee4125c1c
+FAULT_COL_03 = 0
+
+PT_04        = 0xb3eb415b900038afc21d8e2de7d7f6f5
+CT_04        = 0xbe5aa0fe8521113ad37ce2d5d8ce309d
+CT_04_FAULT  = 0x375aa0fe85211170d37cfcd5d860309d
+FAULT_COL_04 = 0
+
+PT_05        = 0xb428ff083fe2e8a95d0abcbb3da43162
+CT_05        = 0x46cc3e30add8fc52594517ed0c51bd33
+CT_05_FAULT  = 0x465a3e300cd8fc525945176d0c51fa33
+FAULT_COL_05 = 1
+
+PT_06        = 0x313363dab3727d34c2e9f91efe5ad0bb
+CT_06        = 0x11dd57dc8cf34f657cccd6b02fcbdd3c
+CT_06_FAULT  = 0x118f57dcd4f34f657cccd6fa2fcb5f3c
+FAULT_COL_06 = 1
+
+PT_07        = 0xd7d986635c8be28fdb6ef9a964088091
+CT_07        = 0x9c0cdf17cf5924d3ccbc9cb0f9ed4869
+CT_07_FAULT  = 0x9ca2df17205924d3ccbc9c34f9eda269
+FAULT_COL_07 = 1
+
+PT_08        = 0x8893a81fb6ac6a409badacfbf30fa8e3
+CT_08        = 0x9660943b8ac62a915ccaa70f103620ed
+CT_08_FAULT  = 0x96a4943b17c62a915ccaa7df1036d1ed
+FAULT_COL_08 = 1
+
+PT_09        = 0xaab69894b0f61c6c78d11e303081ead9
+CT_09        = 0xaba6a1c58f8d5f9236ac1cae7f7db03e
+CT_09_FAULT  = 0xaba6b5c58f355f92b6ac1cae7f7db0a8
+FAULT_COL_09 = 2
+
+PT_10        = 0x1ee1ab1f097734163eb685baecb73538
+CT_10        = 0x2a2468406176c4172d39e42fe4d95443
+CT_10_FAULT  = 0x2a2494406169c4170c39e42fe4d9542c
+FAULT_COL_10 = 2
+
+PT_11        = 0xee56aeb00ed0fad0670f56e721721bf7
+CT_11        = 0xf771a7f4321741287a825e05e7719e39
+CT_11_FAULT  = 0xf77115f432f9412832825e05e7719ec0
+FAULT_COL_11 = 2
+
+PT_12        = 0x352eaef305af1e17a5a8ce4fcf09ed8f
+CT_12        = 0xaf9424ee5d1aa38ea42ddee4ac42f390
+CT_12_FAULT  = 0xaf9478ee5d60a38e542ddee4ac42f39b
+FAULT_COL_12 = 2
+
+PT_13        = 0x59dea761211e902442b2f49d4c0b11b2
+CT_13        = 0x98f30de85d4f2fe2612962490e09900c
+CT_13_FAULT  = 0x98f30d315d4fd4e2611e62492109900c
+FAULT_COL_13 = 3
+
+PT_14        = 0xd8ca64a5f83dad00e7211f0e3cd86ed9
+CT_14        = 0x45040d30d8b1ba34dec17a178767c2a4
+CT_14_FAULT  = 0x45040db4d8b11a34de267a174267c2a4
+FAULT_COL_14 = 3
+
+PT_15        = 0xe32508dd2e8abf4ab187ddcbca89b1e0
+CT_15        = 0xc8faf0c6d8207a75621347eb982543c4
+CT_15_FAULT  = 0xc8faf04bd820a57562d247eb9c2543c4
+FAULT_COL_15 = 3
+
+PT_16        = 0x3600083933bb2627542fb397df65a343
+CT_16        = 0x9ff9d82c8a2ba86ad0c771eb2f631dec
+CT_16_FAULT  = 0x9ff9d8778a2b2a6ad0c671ebd6631dec
+FAULT_COL_16 = 3
+

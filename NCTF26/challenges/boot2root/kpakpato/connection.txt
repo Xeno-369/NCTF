@@ -1,0 +1,7 @@
+# Connexion (à adapter par le jury : IP publique du serveur CTF)
+
+| Service | Commande / mot de passe |
+|---|---|
+| Point d'accès | `ssh -p 30022 deploy@<IP_CTF>` (mdp : `nctf` par défaut, variable `DEPLOY_PASS` dans `deploy/.env`) |
+
+Réseau interne de l'instance : 172.29.5.0/24 (paramétrable via `deploy/.env` -> `CTF_SUBNET`).

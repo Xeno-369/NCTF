@@ -1,0 +1,18 @@
+{
+  "trust_domain": "darknova.io",
+  "mesh_cluster_id": "k8s-prod-us-east1-a",
+  "attestation": {
+    "agent_token_hash": "e7b8c35f91d248b6a37e199042b5883ef4a836d52579b2a7590d96d21389e023",
+    "shared_workload_seed": "spiffe-workload-attestation-secret-k8s-mesh-2026",
+    "signing_algorithm": "HMAC-SHA256"
+  },
+  "ingress_gateway": {
+    "enforced_prefix": "spiffe://darknova.io/ns/sandbox/",
+    "allow_untrusted_cn": true,
+    "debug_honeypot_cn": "admin.internal"
+  },
+  "vault_policy": {
+    "required_principal": "spiffe://darknova.io/ns/prod/sa/vault-controller",
+    "target_secret_path": "/v1/secret/data/production/cloud-vault"
+  }
+}
